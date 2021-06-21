@@ -5,8 +5,7 @@ const apiURL = () => {
   ) {
     return "http://localhost:3001";
   }
-  return "https://aqueous-taiga-27905.herokuapp.com/transactions";
-  // return null
+  return "https://aqueous-taiga-27905.herokuapp.com";
 };
 
 export default apiURL;
