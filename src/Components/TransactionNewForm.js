@@ -57,7 +57,7 @@ function TransactionNewForm({ postTransaction, history }) {
           <input
             id="amount"
             onChange={handleChange}
-            value={transaction.amount}
+            value={Number(transaction.amount)}
             placeholder="Amount"
           />
         </label>
